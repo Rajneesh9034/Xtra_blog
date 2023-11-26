@@ -1,0 +1,141 @@
+body {
+    padding-top: 56px; /* Adjust based on the height of your navbar */
+    background-color: #f5f5f5; /* Set background color */
+}
+
+
+nav img{
+    width: 120px;
+    height: 50px;
+}
+#home {
+    height: 100vh;  /* Set the height of the home section to 100% of the viewport height */
+}
+
+#navbarResponsive ul.navbar-nav li.nav-item:hover {
+    background-color:  rgb(190, 190, 190); /* Change the background color on hover */
+    
+}
+
+#navbarResponsive ul.navbar-nav li.nav-item.active {
+    background-color: #ffffff; /* Set a different color for the active section */
+}
+
+#navbarResponsive ul.navbar-nav li.nav-item.active a {
+    color: #fff !important; /* Set text color to white for active section */
+}
+
+#navbarResponsive ul.navbar-nav li.nav-item a {
+    color: #000 !important; /* Set text color for non-active sections */
+}
+
+#navbarResponsive ul.navbar-nav.ml-auto {
+    margin-right: 0; /* Align the navbar items to the right */
+}
+
+#navbarResponsive ul.navbar-nav.ml-auto .dropdown-menu {
+    right: 0; /* Align the dropdown menu to the right */
+    left: auto; /* Set the left property to auto */
+}
+
+#content {
+    text-align: center; /* Center the text in the content section */
+    padding: 50px 0;
+}
+
+#content h2 {
+    margin-bottom: 30px; /* Add some spacing below the heading */
+}
+a{
+    color: #000;
+}
+
+.card {
+    cursor: pointer; /* Make the cards clickable */
+    height: 150px; /* Set the height of the cards */
+    background-color: white; /* Set the default background color of the cards */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    margin-bottom: 20px; /* Add some spacing between the cards */
+    transition: background-color 0.3s; /* Add transition for a smooth hover effect */
+}
+
+.card:hover {
+    background-color: rgba(215, 201, 201, 0.219); /* Change the background color on hover */
+}
+
+.card:nth-child(2n) {
+    background-color: #1a1b1c; /* Set a different color for even-numbered cards */
+}
+
+.card:nth-child(3n) {
+    background-color: #28a745; /* Set a different color for cards divisible by 3 */
+}
+
+#imageSlider {
+    height: 100vh; /* Set the height of the slider to 100% of the viewport height */
+}
+
+#imageSlider .carousel-inner {
+    height: 100%;
+}
+
+#imageSlider .carousel-inner img {
+    object-fit: cover;
+    width: 100%; /* Ensure the image covers the entire slider */
+    height: 100%;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.book {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
